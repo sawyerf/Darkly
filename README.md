@@ -13,5 +13,6 @@
 | /?page=member    | SQL Injection Member    | 10a16d834f9b1e4068b25c4c46fe0284e99e44dceaf08098fc83925ba6310ff5 |
 | /?page=upload    | Upload PHP              | 46910d9ce35b385885a9f7e2b336249d622f29b267a1771fbacf52133beddba8 |
 | /?page=signin    | Weak Password           | b3a6e43ddf8b4bbb4125e5e7d23040433827759d4de1c04ea63907479a80a6b2 |
-| /?page=feedback  | XML Injection           | 0fbb54bbf7d099713ca4be297e1bc7da0173d8b3c21c1811b916a3a86652724e |
+| /?page=feedback  | XSS                     | 0fbb54bbf7d099713ca4be297e1bc7da0173d8b3c21c1811b916a3a86652724e |
+| /?page=media     | XSS                     | 928d819fc19405ae09921a2b71227bd9aba106f9d2d37ac412e9e5a750f1506d |
 | /whatever        | htpasswd                | d19b4823e0d5600ceed56d5e896ef328d7a2b9e7ac7e80f4fcdb9b10bcb3e7ff |
