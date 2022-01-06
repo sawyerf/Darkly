@@ -8,4 +8,4 @@ http://192.168.56.104/index.php?page=redirect&site=https://google.com
 ```
 Good Job Here is the flag : b9e775a0291fed784a2d9680fcfad7edd6b8cdf87648da647aaf4bba288bcab3
 ```
-- Cet vulnerabilité peut servir à rediriger quelqu'un sur un site en lui donnant un lien dont il a confiance
+- Cette vulnerabilité peut servir à rediriger quelqu'un sur un site en lui donnant un lien dont il a confiance
