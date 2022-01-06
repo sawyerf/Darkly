@@ -10,3 +10,5 @@ Disallow: /.hidden
 root:8621ffdbc5698829397d97767ac13db3
 ```
 
+Le mot de passe de root correspond au md5 de dragon, on va donc aller se log sur la page d'administration en utilisant `root:dragon` et récupérer le flag.
+

