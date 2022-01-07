@@ -1,8 +1,8 @@
 # XSS Injection
 
-- Dans ce formulaire on peut y mettre des commentaire visible par tout les user
-- On comprends donc qu'il faut y mettre un script js pour qu'il soit interpreter par les autres user
-- Les balise <script> sont supprimer mais en y mettant des majuscules cela fonctionne
+- Dans ce formulaire on peut y mettre des commentaires visibles par tous les users
+- On comprend donc qu'il faut y mettre un script js pour qu'il soit interprété par les autres users
+- Les balise `<script>` sont supprimées mais en y mettant des majuscules cela fonctionne
 ```html
 <ScrIpT>alert("lol");</ScrIpT>
 ```

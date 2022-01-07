@@ -1,6 +1,6 @@
 # HTTP Header
 
-- Dans la source de cette page il y a des commentaires qui donne des informations sur des headers a set dans la requete HTTP
+- Dans la source de cette page il y a des commentaires qui donne des informations sur des headers a set dans la requête HTTP
 ```
 Let's use this browser : "ft_bornToSec". It will help you a lot.
 ```
@@ -9,12 +9,12 @@ Let's use this browser : "ft_bornToSec". It will help you a lot.
 ```
 You must cumming from : "https://www.nsa.gov/" to go to the next step
 ```
-- Ce commentaire nous demande de faire croire que l'on viens du site de la nasa la variable d'header qui habituellement fait ca est `Referer`
+- Ce commentaire nous demande de faire croire que l'on vient du site de la NSA, la variable d'header qui habituellement fait ca est `Referer`
 ```
 Referer: https://www.nsa.gov/
 ```
 
-- En y mettant ce deux variables d'headers on obtien le flag
+- En y mettant ce deux variables d'headers on obtient le flag
 ```
 Referer: https://www.nsa.gov/
 User-Agent: ft_bornToSec
