@@ -17,7 +17,7 @@ def get(url):
 			print(r.text)
 		
 	for iurl in urls:
-		get(url + iurl, f)
+		get(url + iurl)
 	return
 
 get('http://192.168.56.104/.hidden/')
