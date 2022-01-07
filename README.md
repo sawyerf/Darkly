@@ -2,7 +2,7 @@
 
 | Url              | Vulnerabilite           | Flag                                                               |
 |------------------|-------------------------|:------------------------------------------------------------------:|
-| /.hidden         | Broken Access Control   | `b9e775a0291fed784a2d9680fcfad7edd6b8cdf87648da647aaf4bba288bcab3` |
+| /.hidden         | Broken Access Control   | `99dde1d35d1fdd283924d84e6d9f1d820`                                |
 | Cookie           | Broken Authentification | `df2eb4ba34ed059a1e3e89ff4dfc13445f104a1a52295214def1c4fb1693a5c3` |
 | /?page=e43ad1... | HTTP Header             | `f2a29020ef3132e01dd61df97fd33ec8d7fcd1388cc9601e7db691d17d4d6188` |
 | /?page\=recover  | Insecure Design         | `1d4855f7337c0c14b6f44946872c4eb33853f40b2d54393fbe94f49f1e19bbb0` |   
