@@ -3,10 +3,9 @@ import requests
 import re
 import sys
 
-def get(url, f):
+def get(url):
 	if '..' in url:
 		return
-	f.write(url + '\n')
 	r = requests.get(url)
 	urls = re.findall(r'href="(.+?)"', r.text)
 	if 'README' in url:
@@ -21,6 +20,4 @@ def get(url, f):
 		get(url + iurl, f)
 	return
 
-f = open('log.txt', 'w')
-get('http://192.168.56.102/.hidden/', f)
-f.close()
+get('http://192.168.56.104/.hidden/')

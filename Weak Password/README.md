@@ -1,4 +1,4 @@
- Weak Password
+ # Weak Password
 
 - La DB s'appelle Member_Brute_Force on comprends donc qu'il faut bruteforce le mot de passe
 - Je cree un script qui bruteforce avec les 100 passwords les plus utilise

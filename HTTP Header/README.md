@@ -14,7 +14,7 @@ You must cumming from : "https://www.nsa.gov/" to go to the next step
 Referer: https://www.nsa.gov/
 ```
 
-- En y mettant ce deux variables d'headers on obtient le flag
+- En y mettant les deux variables d'headers on obtient le flag
 ```
 Referer: https://www.nsa.gov/
 User-Agent: ft_bornToSec
